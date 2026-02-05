@@ -1,0 +1,27 @@
+# Demo checklist (Modern Todo)
+
+## Goal
+
+Показать, что из одного запроса можно получить готовое современное приложение и залендить результат через параллельные Coder Tasks.
+
+## Quick demo script (5–7 минут)
+
+0) Откройте live ссылку:
+   - GitHub Pages: `https://OWNER.github.io/REPO/` (если включено)
+
+1) Создайте пару задач:
+   - Добавьте 3–5 задач
+   - Отметьте 1–2 как выполненные
+   - Переключите фильтры (Все / Активные / Готово)
+   - Нажмите «Очистить» (или `⌘/Ctrl+Backspace`)
+
+2) Покажите, что всё сохраняется:
+   - Обновите страницу (refresh) — список остаётся
+
+3) Покажите, что проект не требует сборки:
+   - как live: GitHub Pages (`https://OWNER.github.io/REPO/`)
+   - или локально: `python3 -m http.server 8000` → `http://127.0.0.1:8000`
+
+## Reset
+
+- В DevTools: Application → Storage → Local Storage → удалить ключ `modern-todo-demo:v1`
